@@ -1,78 +1,43 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PENDAFTARAN</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web | Portofolio</title>
 </head>
 <body>
-        <div align="center" style="background-color: #eff1f2;">
-            <br>
-            <br>
-            <h2>PENERIMAAN MAHASISWA BARU</h2>
-            <h3>UNIVERSITAS AHMAD DAHLAN</h3>
-            <br>
-       </div> 
-    
-        <div align="center" style="background-color: black;">
-        <table border="1" width="100%">
-                        <tr>
-                            
-                            <td align="right" bgcolor="#98aBad">
-                             <div align="center"><h2>Form Input Biodata</h2></div>
-                             <form action="bio.php" method="POST">
-                                <div align="left">
-                                 <label>Nama :</label>
-                                    <input type="text" name="Nama">
-                                    <br />
-                                <label>Alamat :</label>
-                                    <input type="text" name="Alamat">
-                                    <br />
-                                <label>Telp :</label>
-                                    <input type="text" name="telp">
-                                    <br />
-                                <label>Email :</label>
-                                    <input type="email" name="email">
-                                    <br />
-                                <label>Jenis Kelamin :</label>
-                                    <input type="radio" name="Kelamin"
-                                    value="A"> Laki-Laki
-                                    <input type="radio" name="Kelamin"
-                                    value="B"> Perempuan
-                                    <br />
-                                <label>Agama :</label>
-                                    <select name="Agama">
-                                        <option value="islam">Islam</option>
-                                        <option value="protestan">Protestan</option>
-                                        <option value="katolik">Katolik</option>
-                                        <option value="hindu">Hindu</option>
-                                        <option value="buddha">Buddha</option>
-                                        <option value="khonghucu">Khonghucu</option>
-                                    </select><br />
-                                <label>Hobi :</label><br />
-                                        <input type="checkbox" name="hobi[]" value="membaca">Membaca
-                                        <input type="checkbox" name="hobi[]" value="berenang">Berenang<br />
-                                    <br /> 
-                                <label>Prestasi Yang Diraih : </label>
-                                     <textarea name="Prestasi" cols="20" rows="5"></textarea>
-                                  <br />
-                                <input type="Submit" name="simpan" value="Simpan">
-                                <input type="reset" name="batal" value="Batal">
-                                </div>
-                             </form>
-                            </td>
-                        </tr>
-                    </table>
-                    </div>
-            <div align="center" style="background-color: #eff1f2;">
-            <br>
-            <br>
-            <h3><i>UNIVERSITAS AHMAD DAHLAN</i></h3>
-            <br>
-       </div> 
-                    
-   
-
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="https://tif.uad.ac.id/">Blog</a></li>
+                    <li><a href="#Contact">Contact</a></li>   
+                </ul>
+            </nav>
+        </div>
+        <main class="content">
+              <section class="hero">
+                  <img src="online.png" alt="">
+              <div class="hero-content">
+                  <h1>Informatic Engineering</h1><br></h2>LET'S JOIN US!!</h2><br><br>   
+<p>Information Engineering Program of UAD is organized based on the consideration to meet market opportunities for professional qualified masters in the field of information in various development sectors, such as in education, research, practitioners, consultants and leaders in institutions and bureaus in the field of ICT services.</p>
+<a href="file:///C:/xampp/htdocs/websiteku/format-daftar.html" class="action-btn">Form Pendaftaran</a>
+              </div>
+                </section>
+        </div>
+        <div class="footer">
+            <footer>
+            <ul>
+                <li><img src="instagram.png" alt=""><p><a href="https://instagram.com/pmb_uad?igshid=YmMyMTA2M2Y=">Instagram</p></a></li>
+                <li><img src="facebook.png" alt=""><p><a href="https://m.facebook.com/UADYogyakarta/">Facebook</p></a></li>
+                <li><img src="twitter.png" alt=""><p><a href="https://twitter.com/klik_uad?t=5_3eJWtGTJ-tb7IDsuWgsQ&s=08">Twitter</p></a></li>
+                <li><img src="telegram.png" alt=""><p><a href="https://t.me/trszruel">Telegram</a></p></li>
+            </ul>
+            </footer>
+        </div>
+    </div>    
 </body>
 </html>
